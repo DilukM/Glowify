@@ -1,0 +1,62 @@
+name: research_proj
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  image_picker: ^1.0.7
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  camera: ^0.10.5+9
+  tflite_flutter: ^0.10.4
+  path_provider: ^2.1.2
+
+  animated_text_kit: ^4.2.3
+  flutter_spinkit: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/img/
+    - assets/chatbot_model.tflite
+    - assets/tokenizer.pickle
+    - assets/label_encoder.pickle
+    - assets/intents.json
+    - assets/img/LOGO.png
+    - assets/img/Glowify.png
+    - assets/img/face_result.png
+    - assets/img/img1.png
+    - assets/img/img2.png
+    - assets/img/img3.png
+    - assets/img/img4.png
+    - assets/img/img5.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/font/Poppins-ExtraBold.ttf
+          weight: 800
+    - family: Prata
+      fonts:
+        - asset: assets/font/Prata-Regular.ttf
