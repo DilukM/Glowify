@@ -35,7 +35,7 @@ class SalonData {
         imageUrl: 'assets/img/img1.png',
         isFeatured: true,
         category: 'Spa',
-      ),  
+      ),
 
       // Regular salons
       SalonModel(
